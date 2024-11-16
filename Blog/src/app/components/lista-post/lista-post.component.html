@@ -1,1 +1,23 @@
-<p>lista-post works!</p>
+<header class="bg-dark text-white text-center py-3">
+    <h1>El Blog del Dev</h1>
+    <p class="lead">Artículos sobre programación, tecnología y más</p>
+</header>
+
+<div class="container my-5">
+    <div class="row">
+        @for (post of posts; track post.id) {
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm h-100">
+                <img [src]="post.imagen" class="card-img-top" [alt]="post.texto">
+                <div class="card-body">
+                    <h5 class="card-title">{{post.titulo}}</h5>
+                    <p class="card-text">{{post.texto}}</p>
+                </div>
+                <div class="card-footer text-muted small">
+                    Autor: {{post.autor}} | Categoría: {{post.categoria}} | Fecha: {{post.fecha}}
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</div>
