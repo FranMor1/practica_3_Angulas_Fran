@@ -1,0 +1,29 @@
+<form [formGroup]="formulario" (ngSubmit)="creaPost()">
+    <div class="form-group">
+        <label for="titulo">Título</label>
+        <input placeholder="Título del Post" formControlName="titulo">
+    </div>
+
+    <div class="form-group">
+        <label for="texto">Texto</label>
+        <textarea placeholder="Contenido del Post" formControlName="texto"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="autor">Autor</label>
+        <input placeholder="Nombre del Autor" formControlName="autor">
+    </div>
+
+    <div class="form-group">
+        <label for="imagen">URL de la Imagen</label>
+        <input placeholder="URL de una Imagen" formControlName="imagen">
+    </div>
+
+    <div class="form-group">
+        <label for="categoria">Categoría</label>
+        <input placeholder="Categoría del Post" formControlName="categoria">
+    </div>
+
+    <button type="submit">Crear Post</button>
+
+</form>

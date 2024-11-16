@@ -1,0 +1,18 @@
+header {
+    background-color: linear-gradient(to right, #343a40, #495057);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+}

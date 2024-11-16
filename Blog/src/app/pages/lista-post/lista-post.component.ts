@@ -1,6 +1,8 @@
 import { Component, inject } from '@angular/core';
 import { IPost } from '../../interfaces/IPost.interface';
 import { PostService } from '../../services/post.service';
+import { RouterLink } from '@angular/router';
+import { NavHeaderComponent } from "../../components/nav-header/nav-header.component";
 
 @Component({
   selector: 'app-lista-post',
