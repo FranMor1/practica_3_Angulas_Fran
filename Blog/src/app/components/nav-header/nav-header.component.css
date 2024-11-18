@@ -1,33 +1,32 @@
 header {
     background-color: white;
-    text-align: center;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    border-bottom: 3px solid #007BFF;
+    box-shadow: 0 4px 6px rgba(0, 98, 255, 0.2);
 }
 
 header h1 {
     font-size: 2.5rem;
-    margin-bottom: 10px;
-    font-family: 'Arial', sans-serif;
+    font-family: "Krona One", serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+
 }
 
 header p {
     font-size: 1.2rem;
-    margin-bottom: 20px;
-    font-family: 'Georgia', serif;
-    font-style: italic;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-family: "Doto", sans-serif;
+    font-weight: 600;
 }
 
 header button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
+    background-color: white;
+    color: black;
+    border: solid 1px black;
     padding: 10px 20px;
-    font-size: 1rem;
-    font-weight: bold;
+    font-family: "Krona One", serif;
+    font-size: 0.875rem;
     border-radius: 5px;
     cursor: pointer;
     margin: 5px;
@@ -35,7 +34,8 @@ header button {
 }
 
 header button:hover {
-    background-color: #0056b3;
+    color: white;
+    background-color: black;
     transform: scale(1.05);
 }
 
